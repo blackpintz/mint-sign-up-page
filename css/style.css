@@ -1,5 +1,5 @@
 body{
-    background-color:rgba(45, 45 ,45, 0.08);
+    background-color:rgba(45, 45 ,45, 0.075);
     font-family: Arial, Helvetica, sans-serif;
 }
 nav{
@@ -11,24 +11,24 @@ nav{
 #acc{
     position: relative;
     font-weight:lighter;
-    font-size: small;
-    left:9em;
-    top: 0.01em;
+    font-size: 13px;
+    left:8em;
+    top: -0.4em;
 }
 
 #button{
     position:relative;
-    top:-7em;
+    top:-6.8em;
     right:5em;
     left:21em;
 }
 #forgot{
     position:relative;
-    top:-2em;
+    top:-2.4em;
     color:royalblue;
-    font-size: small;
+    font-size: 12px;
     font-weight:lighter;
-    left:8em;
+    left:8.5em;
 }
 #formss{
     margin-left:30em;
@@ -40,8 +40,8 @@ nav{
 }
 
 #logo {
-    width: 400px;
-    margin-left:30em;
+    width:320px;
+    margin-left:33em;
 }
 
 #fname, #phone, #password{
@@ -57,20 +57,18 @@ nav{
 
 #fname label, #phone label, #password label {
     font-weight: 400;
-}
+    color:rgba(45, 45 ,45, 0.75);
 
-#fname input, #phone input, #password input {
-    margin-top: 10px;
 }
-
 
 
 #h2{
     margin-left:0.6em;
-    font-size:xx-large;
-    font-weight:lighter;
-    margin-left:41px;
-
+    font-size:25px;
+    font-weight:100;
+    margin-left:64px;
+    margin-top: 40px;
+    color:rgba(45, 45 ,45, 0.75);
 }
 #one{
     margin-top:-2em;
@@ -78,16 +76,21 @@ nav{
 
 }
 #learn-more{
-    margin-left: 7em;
+    margin-left: 11.8em;
     color:blue;
-    font-size:medium;
+    font-size:14;
     position:relative;
-    top:-2em;
+    top:-2.5em;
 }
 #butt{
     width:300px;
-    height:40px;
+    height:45px;
     margin-left:41px;
+    font-size: 17px;
+}
+
+#statement{
+    font-size: 10px;
 }
 
 
@@ -99,4 +102,15 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#foot p{
+    font-size: 12.5px;
+    line-height:4.4px;
+    margin-bottom:1em;
+}
+
+main{
+    margin-top:-6em;
+    margin-left:45px;
 }
