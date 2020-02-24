@@ -1,5 +1,6 @@
 body{
-    background-color:rgba(45, 45 ,45, 0.1);
+    background-color:rgba(45, 45 ,45, 0.08);
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav{
     margin-top:1em;
@@ -10,9 +11,9 @@ nav{
 #acc{
     position: relative;
     font-weight:lighter;
-    font-family:'Times New Roman', Times, serif;
     font-size: small;
     left:9em;
+    top: 0.01em;
 }
 
 #button{
@@ -30,60 +31,49 @@ nav{
     left:8em;
 }
 #formss{
-    margin-top:4em;
     margin-left:30em;
     padding:0.6px;
     background-color:white;
     margin-bottom:20px;
-    border:3px solid white;
-    width:400px;
-    
+    border: 0.1px solid rgb(169,169,169);
+    width:400px; 
 }
 
-#fname{
-    font-family:'Times New Roman', Times, serif;
+#logo {
+    width: 400px;
+    margin-left:30em;
+}
+
+#fname, #phone, #password{
     width:300px;
     height:30px;
     border-width:1px;
     border-radius:5%;
     font-size: medium;
     margin-left:41px;
+    margin-bottom: 70px;
 
 }
 
-
-#phone{
-    font-family:'Times New Roman', Times, serif;;
-    width:300px;
-    height:30px;
-    border-width:1px;
-    border-radius:5%;
-    font-size: medium;
-    margin-left:41px;
-
-
+#fname label, #phone label, #password label {
+    font-weight: 400;
 }
-#password{
-    font-family:'Times New Roman', Times, serif;
-    width:300px;
-    height:30px;
-    border-width:1px;
-    border-radius:5%;
-    font-size: medium;
-    margin-left:41px;
 
+#fname input, #phone input, #password input {
+    margin-top: 10px;
 }
+
+
+
 #h2{
     margin-left:0.6em;
     font-size:xx-large;
-    font-family:'Times New Roman', Times, serif;
     font-weight:lighter;
     margin-left:41px;
 
 }
 #one{
     margin-top:-2em;
-    font-family: 'Times New Roman', Times, serif;
     margin-left:41px;
 
 }
@@ -98,5 +88,15 @@ nav{
     width:300px;
     height:40px;
     margin-left:41px;
+}
 
+
+
+#recaptcha {
+    background-color:rgba(45, 45 ,45, 0.07);
+    height: 50px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

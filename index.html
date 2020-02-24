@@ -19,36 +19,52 @@
                 </button>
           </nav>
           <main>
+              <div id="logo">
+                  <img class="ui fluid image" src="images/Screenshot from 2020-02-24 11-36-31.png"/>
+              </div>
           <div id = "formss">
               <p id = "h2">Create an intuit account</p><br>
               <p id = one>One account for everything Intuit, including Mint.</p><br>
               <a id = "learn-more" href="#">learn more</a><br>
-              <form id = "forms" class="ui form">
-            <div class="field">
-              <label id = "fname">First Name</label>
-              <input id = "fname" type="text" name="firstname"><br><br>
+              <form id ="forms" class="ui form">
+            <div id="fname" class="field">
+              <label>Email address</label>
+              <input type="email" name="firstname">
             </div>
-            <div class="field">
-              <label id = "phone">Phone(Recommended)</label>
-              <input id = "phone" type="text" name="phone"><br><br>
+            <div id="phone" class="field">
+              <label>Phone(Recommended)</label>
+              <input type="text" name="phone"><br><br>
             </div>
-            <div class="field">
-                <label id = "password">Password</label>
-                <input id = "password" type="text" name="Password"><br><br><br>
+            <div id="password" class="field">
+                <label>Password</label>
+                <input type="text" name="Password"><br><br><br>
               </div>
               <button id = "butt" class="Huge ui blue button">
                 <i class="lock icon"></i>
                 Create Account
               </button>
+              <div id="statement" class="ui center aligned basic segment">
+                  <p>
+                      <em>
+                        By clicking Create account, you agree to our<br>
+                        Terms and have read and acknowledge our <a href="">Privacy</a><br>
+                        <a href="">Statement.</a>
+                      </em>
+                  </p>
+              </div>
+              <div class="ui hidden divider"></div>
+            </form>
+            <div id="recaptcha">
+                <p>Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use.</a></p>
             </div>
+            </div>
+        </main> 
+    </div>  
+        <footer class="ui center aligned basic segment">
+            <p>Legal Privacy Security</p>
+            <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+            <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
             
-        </div>
-        </section>
-        </main>
-          </form>
-
-        <footer>
-
         </footer>
 
     </body>
