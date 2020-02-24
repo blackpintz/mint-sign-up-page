@@ -2,25 +2,54 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>Mint-clone</title>
+        <title>forms page</title>
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/style.css"/>
+        <link rel = "stylesheet" href = "test.css"/>
     </head>
     <body>
         <nav class = "navbar">
-            <h5 id="acc" class="ui header">
-                Already have an account?
-                <div class="sub header">
-                    <a id="forgot" href="#">I forgot my user ID or password</a>
-                </div>
-               
-            </h5>
-            <button class = "Huge ui blue button">
+            <h4 id="acc" class="ui header">
+                Already have an intuit account?
+                <h6 id = forgot>i forgot my user id and password</h6>
+                <button id = "button" class="Huge ui blue button">
+                  <i class="lock icon"></i>
+                  sign in
+                </button>
+          </nav>
+          <main>
+          <div id = "formss">
+              <p id = "h2">Create an intuit account</p><br>
+              <p id = one>One account for everything Intuit, including Mint.</p><br>
+              <a id = "learn-more" href="#">learn more</a><br>
+              <form id = "forms" class="ui form">
+            <div class="field">
+              <label id = "fname">First Name</label>
+              <input id = "fname" type="text" name="firstname"><br><br>
+            </div>
+            <div class="field">
+              <label id = "phone">Phone(Recommended)</label>
+              <input id = "phone" type="text" name="phone"><br><br>
+            </div>
+            <div class="field">
+                <label id = "password">Password</label>
+                <input id = "password" type="text" name="Password"><br><br><br>
+              </div>
+              <button id = "butt" class="Huge ui blue button">
                 <i class="lock icon"></i>
-                Sign In
-            </button>
-        </nav>
+                Create Account
+              </button>
+            </div>
+            
+        </div>
+        </section>
+        </main>
+          </form>
+
+        <footer>
+
+        </footer>
+
     </body>
-    <footer></footer>
 </html>

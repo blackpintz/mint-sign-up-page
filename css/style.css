@@ -1,20 +1,102 @@
-body {
-    background-color: rgba(45,45,45,0.1);
+body{
+    background-color:rgba(45, 45 ,45, 0.1);
+}
+nav{
+    margin-top:1em;
+    margin-left:63em;
+    margin-right:9em;
 }
 
-/* Navbar styles */
-.navbar {
-    margin-right: 2.2em;
-    margin-top: 0.6em;
-    display: flex;
-    justify-content: flex-end;
+#acc{
+    position: relative;
+    font-weight:lighter;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    left:9em;
 }
 
-#acc {
-    margin-top: 0.3em;
+#button{
+    position:relative;
+    top:-7em;
+    right:5em;
+    left:21em;
+}
+#forgot{
+    position:relative;
+    top:-2em;
+    color:royalblue;
+    font-size: small;
+    font-weight:lighter;
+    left:8em;
+}
+#formss{
+    margin-top:4em;
+    margin-left:30em;
+    padding:0.6px;
+    background-color:white;
+    margin-bottom:20px;
+    border:3px solid white;
+    width:400px;
+    
 }
 
-#forgot {
-    padding-right: 1em;
+#fname{
+    font-family:'Times New Roman', Times, serif;
+    width:300px;
+    height:30px;
+    border-width:1px;
+    border-radius:5%;
+    font-size: medium;
+    margin-left:41px;
+
 }
 
+
+#phone{
+    font-family:'Times New Roman', Times, serif;;
+    width:300px;
+    height:30px;
+    border-width:1px;
+    border-radius:5%;
+    font-size: medium;
+    margin-left:41px;
+
+
+}
+#password{
+    font-family:'Times New Roman', Times, serif;
+    width:300px;
+    height:30px;
+    border-width:1px;
+    border-radius:5%;
+    font-size: medium;
+    margin-left:41px;
+
+}
+#h2{
+    margin-left:0.6em;
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:lighter;
+    margin-left:41px;
+
+}
+#one{
+    margin-top:-2em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:41px;
+
+}
+#learn-more{
+    margin-left: 7em;
+    color:blue;
+    font-size:medium;
+    position:relative;
+    top:-2em;
+}
+#butt{
+    width:300px;
+    height:40px;
+    margin-left:41px;
+
+}
