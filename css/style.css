@@ -55,13 +55,11 @@ nav {
     font-size: medium;
     margin-left:41px;
     margin-bottom: 70px;
-
 }
 
 #fname label, #phone label, #password label {
     font-weight: 400;
     color:rgba(45, 45 ,45, 0.75);
-
 }
 
 
