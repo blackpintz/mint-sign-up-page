@@ -1,0 +1,120 @@
+body {
+  background-color: rgba(45, 45, 45, 0.075);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  margin-top: 1em;
+  margin-left: 58em;
+  margin-right: 9em;
+}
+
+#acc {
+  position: relative;
+  font-weight: lighter;
+  font-size: 13px;
+  left: 8em;
+  top: -0.4em;
+}
+
+#button {
+  position: relative;
+  top: -6.8em;
+  right: 5em;
+  left: 21em;
+}
+
+#changeID {
+  position: relative;
+  top: -2.4em;
+  color: royalblue;
+  font-size: 12px;
+  font-weight: lighter;
+  left: 8.5em;
+}
+
+#formss {
+  margin-left: 30em;
+  padding: 0.6px;
+  background-color: white;
+  margin-bottom: 20px;
+  border: 0.1px solid rgb(169, 169, 169);
+  width: 400px;
+}
+
+#logo {
+  width: 320px;
+  margin-left: 33em;
+}
+
+#fname,
+#phone,
+#password {
+  width: 300px;
+  height: 30px;
+  border-width: 1px;
+  border-radius: 5%;
+  font-size: medium;
+  margin-left: 41px;
+  margin-bottom: 70px;
+}
+
+#fname label,
+#phone label,
+#password label {
+  font-weight: 400;
+  color: rgba(45, 45, 45, 0.75);
+}
+
+#h2 {
+  font-size: 25px;
+  font-weight: 100;
+  margin-left: 64px;
+  margin-top: 40px;
+  color: rgba(45, 45, 45, 0.75);
+}
+
+#one {
+  margin-top: -2em;
+  margin-left: 41px;
+}
+
+#learn-more {
+  margin-left: 11.8em;
+  color: blue;
+  font-size: 14px;
+  position: relative;
+  top: -2.5em;
+}
+
+#butt {
+  width: 300px;
+  height: 45px;
+  margin-left: 41px;
+  font-size: 17px;
+}
+
+#statement {
+  font-size: 10px;
+}
+
+#recaptcha {
+  background-color: rgba(45, 45, 45, 0.07);
+  height: 50px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#foot p {
+  font-size: 12.5px;
+  line-height: 4.4px;
+  margin-bottom: 1em;
+}
+
+main {
+  margin-top: -6em;
+  margin-left: 35px;
+  margin-right: 50px;
+}
